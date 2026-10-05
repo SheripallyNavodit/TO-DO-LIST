@@ -1,0 +1,12 @@
+{
+  "name": "crop-advisory-platform",
+  "version": "1.0.0",
+  "private": true,
+  "scripts": {
+    "dev:server": "node server/server.js",
+    "dev:client": "npm.cmd --prefix client run dev",
+    "build:client": "npm.cmd --prefix client run build",
+    "seed": "node server/db/seed.js",
+    "start": "node server/server.js"
+  }
+}
